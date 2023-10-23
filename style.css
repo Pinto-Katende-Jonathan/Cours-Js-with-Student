@@ -11,7 +11,7 @@
   width: 100%;
   background-color: fafafa;
   padding: 3rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .container{
@@ -107,3 +107,4 @@
   border-radius: 50%;
   background-color: var(--clr);
 }
+
