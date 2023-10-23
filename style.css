@@ -8,6 +8,7 @@
 }
 
 .parent{
+  position: relative;
   width: 100%;
   background-color: fafafa;
   padding: 3rem;
@@ -108,3 +109,30 @@
   background-color: var(--clr);
 }
 
+.options-img{
+  width: 100%;
+  height: 100px;
+  background: url('etoile.png');
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.circle{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: var(--circle-clr);
+  position: absolute;
+}
+
+.circle:first-child{
+  left: -13%;
+  top: -35%;
+  z-index: -1;
+}
+
+.circle:nth-child(2){
+  bottom: 0%;
+  right: 10px;
+  z-index: -1;
+}
