@@ -94,9 +94,16 @@
   text-decoration: line-through;
 }
 
+.wrapper{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2rem;
+}
+
 .wrapper .color{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background-color: aquamarine;
+  background-color: var(--clr);
 }
