@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.parent{
+  width: 100%;
+  background-color: fafafa;
+  padding: 3rem;
+  height: 100vh;
+}
+
+.container{
+  background: #fff;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.head .title{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.add-todo{
+  font-size: xx-large;
+  cursor: pointer;
+  user-select: none;
+}
+
+.todo{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.todo .todo-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card{
+  background-color: #fff9df;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  border-radius: 5px;
+}
+
+.card>*{
+  margin-bottom: 10px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header > *{
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.card-type{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-actions{
+  cursor: pointer;
+  user-select: none;
+}
+
+.card-body{
+  line-height: 1.5;
+}
+
+.completed{
+  scale: 1.3;
+}
+
+.card:last-child .card-title{
+  text-decoration: line-through;
+}
+
+.wrapper .color{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
