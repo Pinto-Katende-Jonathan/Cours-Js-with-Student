@@ -140,9 +140,26 @@
 /* -------------- RESPONSIVE ------------------ */
 /* Media query for max-width 795px */
 @media screen and (max-width: 795px) {
+  .parent{
+    padding: 2rem;
+  }
+
   .todo .todo-items{
     grid-template-columns: 1fr;
   }
 }
 
 /* Media query for max-width 520px */
+@media screen and (max-width: 520px){
+  .parent{
+    padding: 1rem;
+  }
+
+  .todo{
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper{
+    margin-bottom: 1rem;
+  }
+}
