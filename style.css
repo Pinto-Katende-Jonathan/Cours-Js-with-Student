@@ -136,3 +136,13 @@
   right: 10px;
   z-index: -1;
 }
+
+/* -------------- RESPONSIVE ------------------ */
+/* Media query for max-width 795px */
+@media screen and (max-width: 795px) {
+  .todo .todo-items{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media query for max-width 520px */
